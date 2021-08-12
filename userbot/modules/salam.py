@@ -11,13 +11,19 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern="^.p(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Assalamualaikum Dulu Biar Sopan**")
+    await typew.edit("**Assalamualaikum**")
 
 
-@register(outgoing=True, pattern=r"^\.pe(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.as(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Assalamualaikum Warahmatullahi Wabarakatuh**")
+    
+    
+@register(outgoing=True, pattern=r"^\.wa(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Wa'alaikumussalam Warahmatullahi Wabarakatuh**")
 
 
 @register(outgoing=True, pattern="^.P(?: |$)(.*)")
@@ -32,19 +38,23 @@ async def typewriter(typew):
 @register(outgoing=True, pattern=r"^\.l(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Wa'alaikumsalam**")
+    await typew.edit("**Wa'alaikumussalam**")
 
 
 CMD_HELP.update(
     {
         "salam": "**Plugin : **`salam`\
         \n\n  •  **Syntax :** `.p`\
-        \n  •  **Function : **Assalamualaikum Dulu Biar Sopan..\
-        \n\n  •  **Syntax :** `.pe`\
-        \n  •  **Function : **salam Kenal dan salam\
+        \n  •  **Function : **Untuk Mengucap Salam\
+        \n\n  •  **Syntax :** `.as`\
+        \n  •  **Function : **Assalamualaikum Warahmatullahi Wabarakatuh\
+        \n\n  •  **Syntax :** `.wa`\
+        \n  •  **Function : **Wa'alaikumussalam Warahmatullahi Wabarakatuh\
         \n\n  •  **Syntax :** `.l`\
         \n  •  **Function : **Untuk Menjawab salam\
         \n\n  •  **Syntax :** `.ass`\
+        \n  •  **Function : **Salam Bahas arab\
+        \n\n  •  **Syntax :** `.waa`\
         \n  •  **Function : **Salam Bahas arab\
         \n\n  •  **Syntax :** `.semangat`\
         \n  •  **Function : **Memberikan Semangat.\
