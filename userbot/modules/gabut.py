@@ -7,6 +7,7 @@ from platform import uname
 from time import sleep
 
 from userbot import ALIVE_NAME, StartTime
+from userbot import CMD_HELP
 from userbot.events import register
 
 # ================= CONSTANT =================
@@ -137,7 +138,192 @@ async def typewriter(typew):
 # Owner @mixiologist
 
 
-@register(outgoing=True, pattern="^.usange(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.waa(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit(f"**Salam Dulu Biar Sopan**")
+    sleep(2)
+    await typew.edit("**وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ**")
+ 
+
+@register(outgoing=True, pattern='^.orgil(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`ANJING ADA ORANG GILA.....`")
+    sleep(1)
+    await typew.edit("`ORANG GILAAAAAA!!`")
+    sleep(1)
+    await typew.edit("`🏃                        🤸`")
+    await typew.edit("`🏃                       🤸`")
+    await typew.edit("`🏃                      👨‍🦽`")
+    await typew.edit("`🏃                     ⛹️`")
+    await typew.edit("`🏃   `LARII`          🤾`")
+    await typew.edit("`🏃                   🤾`")
+    await typew.edit("`🏃                  🤾`")
+    await typew.edit("`🏃                 🤾`")
+    await typew.edit("`🏃                🤾`")
+    await typew.edit("`🏃               🤺`")
+    await typew.edit("`🏃              🏊`")
+    await typew.edit("`🏃             🏊`")
+    await typew.edit("`🏃            🏄`")
+    await typew.edit("`🏃           🤾`")
+    await typew.edit("`🏃PULUPULU   🧚`")
+    await typew.edit("`🏃           ⛹️`")
+    await typew.edit("`🏃            ⛹️`")
+    await typew.edit("`🏃             🤺`")
+    await typew.edit("`🏃              🥴`")
+    await typew.edit("`🏃               🏃`")
+    await typew.edit("`🏃                🏃`")
+    await typew.edit("`🏃                 🤸`")
+    await typew.edit("`🏃                  🤸`")
+    await typew.edit("`🏃                   🤸`")
+    await typew.edit("`🏃                    🤸`")
+    await typew.edit("`🏃                     ⛹️`")
+    await typew.edit("`🏃  Huh-Huh           🏃`")
+    await typew.edit("`🏃                   🤑`")
+    await typew.edit("`🏃                  🙈`")
+    await typew.edit("`🏃                 ⛹️`")
+    await typew.edit("`🏃                🏃`")
+    await typew.edit("`🏃               🤴`")
+    await typew.edit("`🏃              🐖`")
+    await typew.edit("`🏃             🐖`")
+    await typew.edit("`🏃            🥴`")
+    await typew.edit("`🏃           🥴`")
+    await typew.edit("`🏃          🤡`")
+    await typew.edit("`🏃         🤭`")
+    await typew.edit("`CAPE BANGET ANJING!!!`")
+    sleep(1)
+    await typew.edit("`🏃       🏃`")
+    await typew.edit("`🏃      🤾`")
+    await typew.edit("`🏃     🏃`")
+    await typew.edit("`🏃    🏃`")
+    await typew.edit("`Dahlah Pasrah Aja`")
+    sleep(1)
+    await typew.edit("`🧎🐖`")
+    sleep(2)
+    await typew.edit("`-TAMAT-`")
+
+
+# create by rama
+
+
+@register(outgoing=True, pattern='^.thanks(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("●▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬●\n"
+                     "▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄\n"
+                     "╔══╦╗────╔╗─╔╗╔╗\n"
+                     "╚╗╔╣╚╦═╦═╣╚╗║╚╝╠═╦╦╗\n"
+                     "─║║║║║╬║║║╩║╚╗╔╣║║║║\n"
+                     "─╚╝╚╩╩╩╩╩╩╩╝─╚╝╚═╩═╝\n"
+                     "▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄▀▄\n"
+                     "●▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬●")
+
+
+@register(outgoing=True, pattern='^.malam(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("╔═╦═╦╗╔═╦══╦═╦══╗\n"
+                     "║═╣═╣║║╬║║║║╬╠╗╔╝\n"
+                     "╠═║═╣╚╣║║║║║║║║║\n"
+                     "╚═╩═╩═╩╩╩╩╩╩╩╝╚╝\n\n"
+                     "╔══╦═╦╗╔═╦══╗\n"
+                     "║║║║╬║║║╬║║║║\n"
+                     "║║║║║║╚╣║║║║║\n"
+                     "╚╩╩╩╩╩═╩╩╩╩╩╝")
+
+
+@register(outgoing=True, pattern='^.rumah(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**GAMBAR RUMAH**\n"
+                     "╱◥◣\n"
+                     "│∩ │◥███◣ ╱◥███◣\n"
+                     "╱◥◣ ◥████◣▓∩▓│∩ ║\n"
+                     "│╱◥█◣║∩∩∩ ║◥█▓ ▓█◣\n"
+                     "││∩│ ▓ ║∩田│║▓ ▓ ▓∩ ║\n"
+                     "๑۩๑๑۩๑๑ ۩๑๑۩๑▓๑۩๑๑۩๑")
+
+
+@register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("`Kata Emak`")
+    sleep(2)
+    await typew.edit("`Kalo Ketemu Wibuu`")
+    sleep(3)
+    await typew.edit("`Harus Lari Sekenceng Mungkin🏃🏻`")
+    sleep(3)
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`ㅤ🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`🏃🏻💨ㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤㅤ`")
+    await typew.edit("`🧎🏻‍♂️ huhh... akhirnya bisa lolos dari wibu mematikan`")
+
+
+# create by iky
+
+
+@register(outgoing=True, pattern='^.piw(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("`Bapaknya Udin Di Makan Singkong`")
+    sleep(2)
+    await typew.edit("`Cuma Sendiri ni Senggol Dong`")
+
+
+# create by iky
+
+
+@register(outgoing=True, pattern='^.alay(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("eh kamu, iya kamu")
+    sleep(1)
+    await typew.edit("**ALAY** bnget sih")
+    sleep(1)
+    await typew.edit("spam bot mulu")
+    sleep(1)
+    await typew.edit("baru jadi userbot ya?? xixixi")
+    sleep(1)
+    await typew.edit("pantes **NORAK**")
+
+
+# @Rzky3016
+
+
+@register(outgoing=True, pattern='^.dahlah(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**`Ayo Menyerah`**")
+    sleep(2)
+    await typew.edit("**`Ngapain Semangat`**")
+
+
+# @Rzky3016
+
+
+@register(outgoing=True, pattern="^.fusage(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -157,3 +343,26 @@ async def typewriter(typew):
 
 
 # @mixiologist
+
+CMD_HELP.update({
+    "gabut":
+    "•CMD:`.piw`\
+    \nPenjelasan: senggol dong.\
+    \n\n•CMD:`.wibu`\
+    \nPenjelasan: awas ada wibu :v.\
+    \n\n•CMD:`.alay`\
+    \nPenjelasan: buat orang yang mainin bot teross\
+    \n\n•CMD:`.fusage`\
+    \nPenjelasan: dyno palsu.\
+    \n\n•CMD:`.orgil`\
+    \n\n•CMD:`.thanks`\
+    \nPenjelasan: liat sendiri\
+    \n\n•CMD:`.malam`\
+    \nPenjelasan: liat sendiri\
+    \n\n•CMD:`.rumah`\
+    \nPenjelasan: liat sendiri\
+    \nPenjelasan: ada orang gila.\
+    \n\n•CMD:`.is`\
+    \nPenjelasan: istigfar dulu.\
+    \n\n•CMD:`.lat`\ \nPenjelasan: ingetin sholat."
+})
