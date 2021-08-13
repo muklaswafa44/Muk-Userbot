@@ -182,7 +182,7 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Man-Userbot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "Ubot-Fork")
 
 # Bot version
 BOT_VER = os.environ.get("BOT_VER", "0.5.3")
@@ -198,7 +198,7 @@ ALIVE_LOGO = os.environ.get(
     "ALIVE_LOGO") or "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
 
 # Default .alive Instagram
-IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/ramadh20"
+IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/muklaskhoiru_wf"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
@@ -437,8 +437,8 @@ with bot:
                 f"       __Thanks For Using me__\n\n"
                 f"✣ **Userbot Version :** `{BOT_VER}@{UPSTREAM_REPO_BRANCH}`\n"
                 f"✣ **Group Support :** [Sharing Userbot](t.me/sharinguserbot)\n"
-                f"✣ **Owner Repo :** [Risman](t.me/mrismanaziz)\n"
-                f"✣ **Repo :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n")
+                f"✣ **Owner Repo :** [Muk](t.me/iyainyabre)\n"
+                f"✣ **Repo :** [Muk-Userbot](https://github.com/human-ordinary/Muk-Userbot)\n")
             await tgbot.send_file(event.chat_id, logo, caption=text,
                                   buttons=[
                                       [
@@ -469,9 +469,9 @@ with bot:
             elif query.startswith("repo"):
                 result = builder.article(
                     title="Repository",
-                    description="Repository Man - Userbot",
+                    description="Repository Muk - Userbot",
                     url="https://t.me/SharingUserbot",
-                    text="**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Risman](https://t.me/mrismanaziz)\n✣ **Grup Support :** @SharingUserbot\n✣ **Repository :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Muk - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Muk](https://t.me/iyainyabre)\n✣ **Grup Support :** @SharingUserbot\n✣ **Repository :** [Muk-Userbot](https://github.com/human-ordinary/Muk-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -479,7 +479,7 @@ with bot:
                                 "https://t.me/SharingUserbot"),
                             custom.Button.url(
                                 "Repo",
-                                "https://github.com/mrismanaziz/Man-Userbot")],
+                                "https://github.com/human-ordinary/Muk-Userbot")],
                     ],
                     link_preview=False)
             else:
@@ -487,7 +487,7 @@ with bot:
                     title="✗ Muk-Userbot ✗",
                     description="Muk - UserBot | Telethon",
                     url="https://t.me/SharingUserbot",
-                    text="**Man - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Risman](https://t.me/mrismanaziz)\n✣ **Grup Support :** @SharingUserbot\n✣ **Repository :** [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
+                    text="**Muk - UserBot**\n➖➖➖➖➖➖➖➖➖➖\n✣ **Owner Repo :** [Muk](https://t.me/iyainyabre)\n✣ **Grup Support :** @SharingUserbot\n✣ **Repository :** [Muk-Userbot](https://github.com/human-ordinary/Muk-Userbot)\n➖➖➖➖➖➖➖➖➖➖",
                     buttons=[
                         [
                             custom.Button.url(
@@ -495,7 +495,7 @@ with bot:
                                 "https://t.me/SharingUserbot"),
                             custom.Button.url(
                                 "Repo",
-                                "https://github.com/mrismanaziz/Man-Userbot")],
+                                "https://github.com/human-ordinary/Muk-Userbot")],
                     ],
                     link_preview=False,
                 )
