@@ -52,6 +52,15 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
+@register(outgoing=True, pattern='^.repobot(?: |$)(.*)')  
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("👻")
+    sleep(2)
+    await typew.edit("**🔥Ubot - Fork🔥**\n\n [Muk-Userbot](https://github.com/human-ordinary/Muk-Userbot)\n ")
+ 
+
 @register(outgoing=True, pattern='^.wah(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
