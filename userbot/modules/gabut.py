@@ -312,6 +312,28 @@ async def typewriter(typew):
 # @Rzky3016
 
 
+@register(outgoing=True, pattern='^.sad(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Jangan**")
+    sleep(2)
+    await typew.edit("**Tinggalkan**")
+    sleep(2)
+    await typew.edit("**Yang**")
+    sleep(1)
+    await typew.edit("**Terbaik**")
+    sleep(2)
+    await typew.edit("**Demi**")
+    sleep(2)
+    await typew.edit("**Sesuatu**")
+    sleep(2)
+    await typew.edit("**Yang**")
+    sleep(2)
+    await typew.edit("**Menarik**")
+    sleep(2)
+    await typew.edit("**Jangan Tinggalkan Yang Terbaik Demi Sesuatu Yang Menarik:)**")
+
+
 @register(outgoing=True, pattern='^.dahlah(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
