@@ -43,7 +43,7 @@ async def typewriter(typew):
     await typew.edit("`اَسْتَغْفِرُاللهَ الْعَظِيْم`")
 
 
-@register(outgoing=True, pattern=r"^\.perkenalan(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^.perkenalan(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
