@@ -34,6 +34,29 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
+
+@register(outgoing=True, pattern="^.istigfar(?: |$)(.*)")
+async def perkenalan(event):
+    event.pattern_match.group(1)
+    await event.edit(f"`Heh Kamu Gaboleh Begitu...`")
+    sleep(2)
+    await event.edit("`اَسْتَغْفِرُاللهَ الْعَظِيْم`")
+# kenUserbot
+
+
+@register(outgoing=True, pattern="^.perkenalan(?: |$)(.*)")
+async def perkenalan(event):
+    event.pattern_match.group(1)
+    await event.edit(f"`Hai Guys , Perkenalkan Nama Gw {DEFAULTUSER}`")
+    sleep(2)
+    await event.edit(f"`Gw Tinggal Di {WEATHER_DEFCITY}`")
+    sleep(2)
+    await event.edit("`Salam Kenal...`")
+    sleep(2)
+    await event.edit("`Udah Gitu Aja :v`")
+# kenUserbot
+
+
 @register(outgoing=True, pattern='^.lat(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
