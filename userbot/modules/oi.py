@@ -35,7 +35,7 @@ async def typewriter(typew):
 
 
 
-@register(outgoing=True, pattern="^.istigfar(?: |$)(.*)")
+@register(outgoing=True, pattern='^.istigfar(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
@@ -47,7 +47,7 @@ async def typewriter(typew):
 # kenUserbot
 
 
-@register(outgoing=True, pattern="^.perkenalan(?: |$)(.*)")
+@register(outgoing=True, pattern='^.perkenalan(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
