@@ -34,20 +34,16 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-
-@register(outgoing=True, pattern='^.istigfar(?: |$)(.*)')
+@register(outgoing=True, pattern='^.istighfar(?: |$)(.*)')  
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
-    await typew.edit(f"`Heh Kamu Gaboleh Begitu...`")
+    await typew.edit("Heh Kamu Gaboleh Begitu...")
     sleep(2)
     await typew.edit("`اَسْتَغْفِرُاللهَ الْعَظِيْم`")
 
 
-# kenUserbot
-
-
-@register(outgoing=True, pattern='^.perkenalan(?: |$)(.*)')
+@register(outgoing=True, pattern=r"^\.perkenalan(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(2)
