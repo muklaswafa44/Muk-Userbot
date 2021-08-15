@@ -142,7 +142,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit(f"**Salam Dulu Biar Sopan**")
+    await typew.edit(f"**Kalo Orang Salam Itu Dijawab**")
     sleep(2)
     await typew.edit("**وَعَلَيْكُمُ السَّلاَمُ وَرَحْمَةُ اللهِ وَبَرَكَاتُهُ**")
  
