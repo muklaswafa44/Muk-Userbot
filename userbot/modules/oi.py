@@ -36,24 +36,28 @@ async def typewriter(typew):
 
 
 @register(outgoing=True, pattern="^.istigfar(?: |$)(.*)")
-async def perkenalan(event):
-    event.pattern_match.group(1)
-    await event.edit(f"`Heh Kamu Gaboleh Begitu...`")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit(f"`Heh Kamu Gaboleh Begitu...`")
     sleep(2)
-    await event.edit("`اَسْتَغْفِرُاللهَ الْعَظِيْم`")
+    await typew.edit("`اَسْتَغْفِرُاللهَ الْعَظِيْم`")
+
+
 # kenUserbot
 
 
 @register(outgoing=True, pattern="^.perkenalan(?: |$)(.*)")
-async def perkenalan(event):
-    event.pattern_match.group(1)
-    await event.edit(f"`Hai Guys , Perkenalkan Nama Gw {DEFAULTUSER}`")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit(f"`Hai Guys , Perkenalkan Nama Gw {DEFAULTUSER}`")
     sleep(2)
-    await event.edit(f"`Gw Tinggal Di {WEATHER_DEFCITY}`")
+    await typew.edit(f"`Gw Tinggal Di {WEATHER_DEFCITY}`")
     sleep(2)
-    await event.edit("`Salam Kenal...`")
+    await typew.edit("`Salam Kenal...`")
     sleep(2)
-    await event.edit("`Udah Gitu Aja :v`")
+    await typew.edit("`Udah Gitu Aja :v`")
+
+
 # kenUserbot
 
 
