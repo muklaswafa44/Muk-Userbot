@@ -41,6 +41,12 @@ async def typewriter(typew):
     await typew.edit("**Wa'alaikumussalam**")
 
 
+@register(outgoing=True, pattern='^M(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**𝐁𝐇𝐀𝐀𝐀𝐊𝐒𝐒𝐒𝐒𝐒𝐒𝐒𝐒𝐒**")
+
+
 CMD_HELP.update(
     {
         "salam": "**Plugin : **`salam`\
