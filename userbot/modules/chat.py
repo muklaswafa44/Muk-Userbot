@@ -117,7 +117,7 @@ async def log(log_text):
     await log_text.delete()
 
 
-@register(outgoing=True, pattern=r"^\.kickme$")
+@register(outgoing=True, pattern=r"^\.exit$")
 async def kickme(leave):
     """Basically it's .kickme command"""
     await leave.edit(f"`{ALIVE_NAME} has left this group, bye!!`")
@@ -127,7 +127,7 @@ async def kickme(leave):
 @register(outgoing=True, pattern=r"^\.kikme$")
 async def kickme(leave):
     """Basically it's .kickme command"""
-    await leave.edit("**GC NYA JELEK GOBLOK KELUAR DULU AH CROTT** 🥴")
+    await leave.edit("**GC NYA JELEK GOBLOK KELUAR DULU BYE** 🥴")
     await leave.client.kick_participant(leave.chat_id, "me")
 
 
@@ -598,7 +598,7 @@ CMD_HELP.update(
 CMD_HELP.update(
     {
         "kickme": "**Plugin : **`kickme`\
-        \n\n  •  **Syntax :** `.kickme`\
+        \n\n  •  **Syntax :** `.exit`\
         \n  •  **Function : **Keluar grup dengan menampilkan pesan Master has left this group, bye!!\
         \n\n  •  **Syntax :** `.leave`\
         \n  •  **Function : **Keluar grup dengan menampilkan pesan Master Telah Meninggalkan Grup, bye !!\
