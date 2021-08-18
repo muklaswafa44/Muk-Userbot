@@ -1575,7 +1575,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern=r"^\.leave$")
 async def leave(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`Master Telah Meninggalkan Grup, bye !!`")
+        await e.edit("`KING Telah Meninggalkan Grup, bye !!`")
 
 
 @register(outgoing=True, pattern=r"^\.fail$")
