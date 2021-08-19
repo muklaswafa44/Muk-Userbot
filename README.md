@@ -42,8 +42,12 @@ Thanks For all :
 *   [TeamUserge](https://github.com/UsergeTeam/Userge) - Userge
 *   [Lord-Userbot](https://github.com/Zora24/Lord-Userbot) - Alvin
 *   [Kampang-Bot](https://github.com/ManusiaRakitan/Kampang-Bot) - Koala
+*   [Geez-UserBot](https://github.com/vckyou/Geez-UserBot) - Vckyou
 *   [X-REMIX](https://github.com/ximfine) -  X_ImFine
 *   [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot) -  Risman
+*   [RAM-UBOT](https://github.com/ramadhani892/RAM-UBOT) - rama (landak)
+*   [Rose-Usebot](https://github.com/SendiAp/Rose-Userbot) - SEndiAp
+*   [Paradise-Userbot](https://github.com/Rzky3016/Paradise-Userbot) - Rizky (iky)
 
 ## License
 Licensed under [Raphielscape Public License](https://github.com/mrismanaziz/Man-Userbot/blob/Man-Userbot/LICENSE) - Version 1.d, February 2020
