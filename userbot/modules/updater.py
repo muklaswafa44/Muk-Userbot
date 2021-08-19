@@ -77,14 +77,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             return await event.delete()
         else:
             await event.edit(
-                "`Man-Userbot Berhasil Di Deploy! Userbot bisa di gunakan kembali.`"
+                "`Muk-Userbot Berhasil Di Deploy! Userbot bisa di gunakan kembali.`"
             )
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
-                BOTLOG_CHATID, "#BOT \n" "**Man-Userbot Berhasil Di Update**"
+                BOTLOG_CHATID, "#BOT \n" "**Muk-Userbot Berhasil Di Update**"
             )
 
     else:
@@ -99,9 +99,9 @@ async def update(event, repo, ups_rem, ac_br):
         ups_rem.pull(ac_br)
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
-    await event.edit("**✥ Man-Userbot** `Berhasil Di Update!`")
+    await event.edit("**✥ Muk-Userbot** `Berhasil Di Update!`")
     await asyncio.sleep(1)
-    await event.edit("**✥ Man-Userbot** `Sedang di Restart....`")
+    await event.edit("**✥ Muk-Userbot** `Sedang di Restart....`")
     await asyncio.sleep(1)
     await event.edit("`Tunggu Beberapa Detik `")
     await asyncio.sleep(10)
@@ -109,7 +109,7 @@ async def update(event, repo, ups_rem, ac_br):
 
     if BOTLOG:
         await event.client.send_message(
-            BOTLOG_CHATID, "#BOT \n" "**Man-Userbot Sedang Di Perbarui**"
+            BOTLOG_CHATID, "#BOT \n" "**Muk-Userbot Sedang Di Perbarui**"
         )
         await asyncio.sleep(100)
         await event.delete()
@@ -171,13 +171,13 @@ async def upstream(event):
     changelog = await gen_chlog(repo, f"HEAD..upstream/{ac_br}")
 
     if changelog == "" and not force_update:
-        await event.edit(f"\n**✥ Man-Userbot Sudah Versi Terbaru**\n")
+        await event.edit(f"\n**✥ Muk-Userbot Sudah Versi Terbaru**\n")
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
 
     if conf is None and not force_update:
-        changelog_str = f"**✥ Pembaruan Untuk Man-Userbot [{ac_br}] :\n\n✥ Pembaruan:**\n`{changelog}`"
+        changelog_str = f"**✥ Pembaruan Untuk Muk-Userbot [{ac_br}] :\n\n✥ Pembaruan:**\n`{changelog}`"
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Buka File Untuk Melihatnya.`")
             with open("output.txt", "w+") as file:
@@ -191,7 +191,7 @@ async def upstream(event):
         else:
             await event.edit(changelog_str)
         return await event.respond(
-            "✥ **Perintah Untuk Update Man-Userbot**\n ›`.update now`\n ›`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari Man-Userbot.__"
+            "✥ **Perintah Untuk Update Muk-Userbot**\n ›`.update now`\n ›`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari Man-Userbot.__"
         )
 
     if force_update:
@@ -199,13 +199,13 @@ async def upstream(event):
             "`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`"
         )
     else:
-        await event.edit("`✣ Proses Update Man-Userbot, Loading....1%`")
-        await event.edit("`✣ Proses Update Man-Userbot, Loading....12%`")
-        await event.edit("`✣ Proses Update Man-Userbot, Loading....25%`")
-        await event.edit("`✣ Proses Update Man-Userbot, Loading....46%`")
-        await event.edit("`✣ Proses Update Man-Userbot, Loading....76%`")
-        await event.edit("`✣ Proses Update Man-Userbot, Updating...92%`")
-        await event.edit("`✣ Proses Update Man-Userbot, Tunggu Sebentar....100%`")
+        await event.edit("`✣ Proses Update Muk-Userbot, Loading....1%`")
+        await event.edit("`✣ Proses Update Muk-Userbot, Loading....12%`")
+        await event.edit("`✣ Proses Update Muk-Userbot, Loading....25%`")
+        await event.edit("`✣ Proses Update Muk-Userbot, Loading....46%`")
+        await event.edit("`✣ Proses Update Muk-Userbot, Loading....76%`")
+        await event.edit("`✣ Proses Update Muk-Userbot, Updating...92%`")
+        await event.edit("`✣ Proses Update Muk-Userbot, Tunggu Sebentar....100%`")
     if conf == "now":
         for commit in changelog.splitlines():
             if (
