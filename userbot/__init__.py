@@ -429,33 +429,6 @@ with bot:
         uid = me.id
         logo = ALIVE_LOGO
 
-# ------------------------------ChatAction--------------->
-
-        @tgbot.on(events.ChatAction)
-        async def handler(event):
-            if event.user_joined or event.user_added:
-                u = await event.client.get_entity(event.chat_id)
-                c = await event.client.get_entity(event.user_id)
-                await event.reply(
-                    f"** Selamat Datang Digrub **👋\n"
-                    f"[{get_display_name(u)}](tg: // user?id={u.id})\n"
-                    f"────────────────────\n"
-                    f"📮 ** Nama: ** [{get_display_name(c)}](tg: // user?id={c.id})\n"
-                    f"────────────────────\n"
-                    f"✏️ ** ID: ** {c.id}\n"
-                    f"────────────────────\n"
-                    f"🤴 **ʙᴏᴛᴏꜰ: ** {DEFAULTUSER}\n\n"
-                    f"➠ ** Ketik ** /rules supaya tahu peraturan Group ini\n"
-                    f"➠ **Atau** Kalian Bisa Klik /notes Dibawah Jika Ada\n",
-                    buttons=[
-                        [
-                            Button.url("【﻿Ｃｈａｎｎｅｌ】",
-                                       "https://t.me/chlenterasajak")],
-                    ]
-                )
-
-# ====================================InlineHandler===================================== #
-
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             await event.message.get_sender()
