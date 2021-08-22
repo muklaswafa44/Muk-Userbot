@@ -46,6 +46,7 @@ Thanks For all :
 *   [X-REMIX](https://github.com/ximfine) -  X_ImFine
 *   [Man-Userbot](https://github.com/mrismanaziz/Man-Userbot) -  Risman
 *   [RAM-UBOT](https://github.com/ramadhani892/RAM-UBOT) - rama (landak)
+*   [King-Userbot](https://github.com/apisuserbot/King-Userbot) - apisuserbot
 *   [Rose-Usebot](https://github.com/SendiAp/Rose-Userbot) - SEndiAp
 *   [Paradise-Userbot](https://github.com/Rzky3016/Paradise-Userbot) - Rizky (iky)
 
