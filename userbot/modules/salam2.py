@@ -88,6 +88,19 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**GC SEPI KAYA GINI, BUBARIN AJA PLIS!!🤣**")
 
+
+@register(outgoing=True, pattern='^.kuat(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**gak boleh lemah semangat dong, dulu katanya mau jadi ultraman**")
+
+
+@register(outgoing=True, pattern='^sad1(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**lihatlah cantik, kau telah mematahkan hati lelaki incaran semua orang**")
+
+
 CMD_HELP.update({
     "salam2":
     ".gjm\
@@ -99,6 +112,10 @@ CMD_HELP.update({
 \n\n.yb\
 \nUsage:\
 \n\n.st\
+\nUsage:\
+\n\n.kuat\
+\nUsage:\
+\n\n.sad1\
 \nUsage:\
 "
     }
