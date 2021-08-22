@@ -61,7 +61,6 @@ async def pingme(pong):
                     f"═⎆ **Sisa Waktu:** "
                     f"`{uptime}` \n"
                     f"**✠➲ User:** `{ALIVE_NAME}`" % (duration))
-    )
 
 
 @register(outgoing=True, pattern=r"^\.xping$")
@@ -78,7 +77,6 @@ async def pingme(pong):
                     f"`%sms` \n"
                     f"☞  __Sisa Waktu:__ "
                     f"`{uptime}` \n" % (duration))
-    )
 
 
 @register(outgoing=True, pattern=r"^\.lping$")
@@ -99,7 +97,6 @@ async def pingme(pong):
                     f"═⎆ **Sisa Waktu:** "
                     f"`{uptime}` \n"
                     f"**✠➲ User:** `{ALIVE_NAME}`" % (duration))
-    )
 
 
 @register(outgoing=True, pattern="^.kping$")
