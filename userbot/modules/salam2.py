@@ -26,13 +26,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.an(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("Sangean ko ditele, nyewa hotel dong...")
+    await typew.edit("Sange mulu , tobat yuk!")
     
     
-@register(outgoing=True, pattern='^.to(?: |$)(.*)')
+@register(outgoing=True, pattern='^.w(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Tobak kak, Open vcs mulu...**")
+    await typew.edit("**Welcome kak, salken ya 🙂**")
 
 
 @register(outgoing=True, pattern='^.O(?: |$)(.*)')
@@ -101,11 +101,17 @@ async def typewriter(typew):
     await typew.edit("**lihatlah cantik, kau telah mematahkan hati lelaki incaran semua orang**")
 
 
+@register(outgoing=True, pattern='^x(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**INI GRUB APA KUBURAN SEPI BANGET ASTAGFIRULLAH!!**")
+
+
 CMD_HELP.update({
     "salam2":
     ".gjm\
 \nUsage:\
-\n\n.to\
+\n\n.w\
 \nUsage:\
 \n\n.gjl\
 \nUsage:\
