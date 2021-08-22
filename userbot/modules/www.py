@@ -122,45 +122,27 @@ async def pingme(pong):
                     f"`{uptime}` \n" % (duration))
 
 
-@register(outgoing=True, pattern=r"^\.uping$")
+@register(outgoing=True, pattern="^.fping$")
 async def pingme(pong):
-    """For .ping command, ping the userbot from any chat."""
+    """ For .fping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit(".                       /¯ )")
     await pong.edit(".                       /¯ )\n                      /¯  /")
-    await pong.edit(
-        ".                       /¯ )\n                      /¯  /\n                    /    /"
-    )
-    await pong.edit(
-        ".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸"
-    )
-    await pong.edit(
-        ".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ "
-    )
-    await pong.edit(
-        ".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')"
-    )
-    await pong.edit(
-        ".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /"
-    )
-    await pong.edit(
-        ".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´"
-    )
-    await pong.edit(
-        ".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              ("
-    )
-    await pong.edit(
-        ".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  "
-    )
+    await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /")
+    await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸")
+    await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ ")
+    await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')")
+    await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /")
+    await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´")
+    await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (")
+    await pong.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(
-        f"**PONG!!🏓**\n"
-        f"✣ **Pinger** - `%sms`\n"
-        f"✣ **Uptime -** `{uptime}` \n"
-        f"**✦҈͜͡Owner :** `{ALIVE_NAME}`" % (duration)
-    )
+    await pong.edit(f"〠 __Test__ **PING** __|━|⎆__ ヅ "
+                    f"\n  ☞ `%sms` \n"
+                    f"〠 __My__ **User** __|━|⎆__ ヅ "
+                    f"\n  ☞ `{ALIVE_NAME}` \n" % (duration))
 
 
 @register(outgoing=True, pattern=r"^\.speedtest$")
