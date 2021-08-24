@@ -43,19 +43,6 @@ async def typewriter(typew):
     await typew.edit("`اَسْتَغْفِرُاللهَ الْعَظِيْم`")
 
 
-@register(outgoing=True, pattern=r"^.perkenalan(?: |$)(.*)")
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(2)
-    await typew.edit(f"`Hai Guys , Perkenalkan Nama Gw {DEFAULTUSER}`")
-    sleep(2)
-    await typew.edit(f"`Gw Tinggal Di {WEATHER_DEFCITY}`")
-    sleep(2)
-    await typew.edit("`Salam Kenal...`")
-    sleep(2)
-    await typew.edit("`Udah Gitu Aja :v`")
-
-
 # kenUserbot
 
 
@@ -139,6 +126,20 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Sama sama kawan**")
+
+
+# Create by myself @localheart
+
+
+@register(outgoing=True, pattern=r"^\.v(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(2)
+    await typew.edit("**Selamat datang**")
+    sleep(2)
+    await typew.edit("**Maaf ya yang keculik**")
+    sleep(2)
+    await typew.edit("**semoga betah, salken ya 🙂**")
 
 
 # Create by myself @localheart
