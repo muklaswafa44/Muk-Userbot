@@ -290,7 +290,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Yang**")
     sleep(1)
-    await typew.edit("**Terbaik**")
+    await typew.edit("**Setia**")
     sleep(2)
     await typew.edit("**Demi**")
     sleep(2)
@@ -300,7 +300,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Menarik**")
     sleep(2)
-    await typew.edit("**Jangan Tinggalkan Yang Terbaik Demi Sesuatu Yang Menarik:)**")
+    await typew.edit("**Jangan Tinggalkan Yang Setia Demi Sesuatu Yang Menarik:)**")
 
 
 @register(outgoing=True, pattern='^.dahlah(?: |$)(.*)')
