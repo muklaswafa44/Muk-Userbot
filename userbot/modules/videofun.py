@@ -17,7 +17,7 @@ async def _(event):
         await event.edit("**Tidak bisa menemukan video asupan.**")
 
 
-@register(outgoing=True, pattern=r"^\.wibuu$")
+@register(outgoing=True, pattern=r"^\.wibu$")
 async def _(event):
     try:
         response = requests.get("https://api-tede.herokuapp.com/api/asupan/wibu").json()
