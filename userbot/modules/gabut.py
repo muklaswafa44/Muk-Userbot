@@ -215,7 +215,7 @@ async def typewriter(typew):
                      "๑۩๑๑۩๑๑ ۩๑๑۩๑▓๑۩๑๑۩๑")
 
 
-@register(outgoing=True, pattern='^.wibu(?: |$)(.*)')
+@register(outgoing=True, pattern='^.wibuu(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -339,7 +339,7 @@ CMD_HELP.update({
     "gabut":
     "•CMD:`.piw`\
     \nPenjelasan: senggol dong.\
-    \n\n•CMD:`.wibu`\
+    \n\n•CMD:`.wibuu`\
     \nPenjelasan: awas ada wibu :v.\
     \n\n•CMD:`.alay`\
     \nPenjelasan: buat orang yang mainin bot teross\
