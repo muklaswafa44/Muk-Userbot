@@ -708,7 +708,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(
         " ⠀⠀╱▔▔▔▔▔╲\n"
-        " ⠀╱⠀⠀╱▔╲╲╲╲ ▏\n"
+        " ⠀╱⠀⠀╱▔╲╲╲ ▏\n"
         " ╱⠀⠀╱━╱▔▔▔▔▔╲━╮\n"
         " ▏⠀▕┃▕╱▔╲╱▔╲▕╮┃\n"
         " ▏⠀▕╰━▏▊▕▕▋▕▕━╯\n"
