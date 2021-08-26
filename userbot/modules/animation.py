@@ -703,6 +703,29 @@ async def typewriter(typew):
     )
 
 
+@register(outgoing=True, pattern=r"^\.nyet(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit(
+        " ⠀⠀╱▔▔▔▔▔╲\n"
+        " ⠀╱⠀⠀╱▔╲╲╲╲ ▏\n"
+        " ╱⠀⠀╱━╱▔▔▔▔▔╲━╮\n"
+        " ▏⠀▕┃▕╱▔╲╱▔╲▕╮┃\n"
+        " ▏⠀▕╰━▏▊▕▕▋▕▕━╯\n"
+        " ╲⠀⠀╲╱▔╭╮▔▔┳╲╲\n"
+        " ⠀╲⠀⠀▏╭━━━━╯▕▕\n"
+        " ⠀⠀╲⠀╲▂▂▂▂▂▂╱╱\n"
+        " ⠀⠀⠀⠀▏⠀⠀⠀⠀⠀⠀⠀⠀⠀╲\n"
+        " ⠀⠀⠀⠀▏⠀⠀⠀⠀⠀⠀▕╲⠀⠀╲\n"
+        " ⠀╱▔╲▏⠀⠀⠀⠀⠀⠀▕╱▔╲▕\n"
+        " ⠀▏ ⠀⠀⠀╰⠀⠀⠀⠀╯⠀⠀⠀▕▕\n"
+        "  ⠀╲⠀⠀⠀╲⠀⠀⠀⠀╱⠀⠀⠀╱⠀╲\n"
+        "  ⠀⠀╲⠀⠀▕▔▔▔▔▏⠀⠀╱╲╲╲▏\n"
+        " ⠀╱▔⠀⠀▕⠀⠀⠀⠀▏⠀⠀▔╲▔▔\n"
+        "Kembaran ku mana ni...               \n     |"
+    )
+
+
 @register(outgoing=True, pattern=r"^\.ajg(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
