@@ -722,7 +722,7 @@ async def typewriter(typew):
         "  ⠀╲⠀⠀⠀╲⠀⠀⠀⠀╱⠀⠀⠀╱⠀╲\n"
         "  ⠀⠀╲⠀⠀▕▔▔▔▔▏⠀⠀╱╲╲╲▏\n"
         " ⠀╱▔⠀⠀▕⠀⠀⠀⠀▏⠀⠀▔╲▔▔\n"
-        "Kembaran ku mana ni...               \n     |"
+        "Kembaran ku mana ni...               \n     "
     )
 
 
