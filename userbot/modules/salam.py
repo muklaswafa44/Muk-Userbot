@@ -47,6 +47,19 @@ async def typewriter(typew):
     await typew.edit("**𝐁𝐇𝐀𝐀𝐀𝐊𝐒𝐒𝐒𝐒𝐒𝐒𝐒𝐒𝐒**")
 
 
+@register(outgoing=True, pattern='^.ast(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇......")
+
+
+@register(outgoing=True, pattern='^M(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**HAI PERKENALKAN NAMA SAYA GAK TAU LUPA!!**")
+
+
+
 CMD_HELP.update(
     {
         "salam": "**Plugin : **`salam`\
@@ -64,6 +77,10 @@ CMD_HELP.update(
         \n  •  **Function : **Salam Bahas arab\
         \n\n  •  **Syntax :** `.semangat`\
         \n  •  **Function : **Memberikan Semangat.\
+        \n\n  •  **Syntax :** `.ast`\
+        \n  •  **Function : **Memunculkan tulisan 𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇.......\
+        \n\n  •  **Syntax :** `.M`\
+        \n  •  **Function : **Memunculkan tulisan HAI PERKENALKAN NAMA SAYA GAK TAU LUPA\
         \n\n  •  **Syntax :** `.ywc`\
         \n  •  **Function : **nMenampilkan Sama sama\
         \n\n  •  **Syntax :** `.sayang`\
