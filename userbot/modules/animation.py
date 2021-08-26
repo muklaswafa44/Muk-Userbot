@@ -1271,7 +1271,7 @@ CMD_HELP.update(
     \nUsage: liat aja.\
     \n\n`.awk`\
     \nUsage: ketawa lari.\
-    \n\n`.ular` ; `.babi` ; `.ajg`\
+    \n\n`.ular` ; `.babi` ; `.ajg` ; `.nyet`\
     \nUsage: liat sendiri.\
     \n\n`.nah` ; `.huh` ; `.owner`\
     \nUsage: cobain.\
