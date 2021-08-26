@@ -314,6 +314,28 @@ async def typewriter(typew):
 # @Rzky3016
 
 
+@register(outgoing=True, pattern='^/wkwk(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("` 😂 `")
+    sleep(1)
+    await typew.edit("`🤣`")
+    sleep(1)
+    await typew.edit("` 😁 `")
+    sleep(1)
+    await typew.edit("` 😅`")
+    sleep(1)
+    await typew.edit("`😄`")
+    sleep(2)
+    await typew.edit("`😀`")
+    sleep(1)
+    await typew.edit("`😆`")
+    sleep(1)
+    await typew.edit("`😓`")
+# Create by myself @localheart
+
+
 @register(outgoing=True, pattern="^.fusage(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
