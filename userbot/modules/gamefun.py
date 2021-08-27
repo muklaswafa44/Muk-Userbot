@@ -68,5 +68,6 @@ async def _(event):
 CMD_HELP.update(
     {
         "gamemuk": "`.ninjagame dan .racergame`\
-    \nNinja Game."
-    })
+         \nNinja Game."
+    }
+)
