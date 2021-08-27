@@ -209,4 +209,5 @@ CMD_HELP.update({
     \nUsage: buat bercanda\
     \n\n`.tele`\
     \nUsage: buat bercanda\
-})
+    }
+)
