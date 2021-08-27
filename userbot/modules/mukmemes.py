@@ -208,6 +208,6 @@ CMD_HELP.update({
     \n\n`.polisi`\
     \nUsage: buat bercanda\
     \n\n`.tele`\
-    \nUsage: buat bercanda\"
+    \nUsage: buat bercanda."
     }
 )
