@@ -4,7 +4,7 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.tiger(?: |$)(.*)")
+@register(outgoing=True, pattern="^.tiger(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`HA HAAA.....`")
@@ -62,7 +62,7 @@ async def typewriter(typew):
     await typew.edit("`-TAMAT-`")
 
 
-@register(outgoing=True, pattern='^.halo(?: |$)(.*)')
+@register(outgoing=True, pattern="^.halo(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n┻┳|―-∩`"
@@ -75,7 +75,7 @@ async def typewriter(typew):
                      "\n**Hallo**")
 
 
-@register(outgoing=True, pattern='^.hoh(?: |$)(.*)")
+@register(outgoing=True, pattern="^.hoh(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n(\\_/)`"
@@ -91,7 +91,7 @@ async def typewriter(typew):
                      "`\n💔<\\  *aku ambil lagi deh`")
 
 
-@register(outgoing=True, pattern='^.noh(?: |$)(.*)')
+@register(outgoing=True, pattern="^.noh(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`\n(\\_/)`"
@@ -103,7 +103,7 @@ async def typewriter(typew):
                      "`\n🥀<\\  *Lah Layu, Gajadi maap🤣`")
 
 
-@register(outgoing=True, pattern='^.jawa(?: |$)(.*)")
+@register(outgoing=True, pattern="^.jawa(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -140,7 +140,7 @@ async def typewriter(typew):
     await typew.edit("Bersama Jawa Membangun Negri")
 
 
-@register(outgoing=True, pattern='^.gelay(?: |$)(.*)")
+@register(outgoing=True, pattern="^.gelay(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -155,7 +155,7 @@ async def typewriter(typew):
     await typew.edit("__GELAYY__🤮")
 
 
-@register(outgoing=True, pattern='^.polisi(?: |$)(.*)')
+@register(outgoing=True, pattern="^.polisi(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
@@ -177,7 +177,7 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.tele(?: |$)(.*)")
+@register(outgoing=True, pattern="^.tele(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
