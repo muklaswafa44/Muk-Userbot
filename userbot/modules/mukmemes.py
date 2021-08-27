@@ -1,4 +1,5 @@
 from time import sleep
+
 from userbot import CMD_HELP
 from userbot.events import register
 
@@ -208,4 +209,4 @@ CMD_HELP.update({
     \nUsage: buat bercanda\
     \n\n`.tele`\
     \nUsage: buat bercanda\
-})  
+})
