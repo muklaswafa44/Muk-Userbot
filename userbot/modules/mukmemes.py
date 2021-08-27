@@ -103,6 +103,101 @@ async def typewriter(typew):
                      "`\n🥀<\\  *Lah Layu, Gajadi maap🤣`")
 
 
+@register(outgoing=True, pattern='^.bacot(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("nyenyenyenye")
+    sleep(1)
+    await typew.edit("apasih ngomong apa")
+    sleep(1)
+    await typew.edit("gajelas anjir")
+
+
+@register(outgoing=True, pattern='^razia(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit("` 🏍️ `")
+    sleep(1)
+    await typew.edit("`ADA POLISI`")
+    sleep(1)
+    await typew.edit("` 🚓 `")
+    sleep(1)
+    await typew.edit("` WIU WIU`")
+    sleep(1)
+    await typew.edit("` 🚓 `")
+    sleep(1)
+    await typew.edit("` WIU WIU`")
+    sleep(1)
+    await typew.edit("`🚑`")
+    sleep(1)
+    await typew.edit("` WIU WIU`")
+    sleep(1)
+    await typew.edit("`🚓`")
+    sleep(1)
+    await typew.edit("`🚥 Yah Ketangkap`")
+
+
+@register(outgoing=True, pattern='^.polisii(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`ADA POLISI LARI.....`")
+    sleep(1)
+    await typew.edit("`MO NANGKAP KANG CULIK MEMBER!!`")
+    sleep(1)
+    await typew.edit("`🏃                        🚓`")
+    await typew.edit("`🏃                       🚓`")
+    await typew.edit("`🏃                      🚓`")
+    await typew.edit("`🏃                     🚓`")
+    await typew.edit("`🏃   `AYOO LARII`     🚓`")
+    await typew.edit("`🏃                   🚓`")
+    await typew.edit("`🏃                  🚓`")
+    await typew.edit("`🏃                 🚓`")
+    await typew.edit("`🏃                🚓`")
+    await typew.edit("`🏃               🚓`")
+    await typew.edit("`🏃              🚓`")
+    await typew.edit("`🏃             🚓`")
+    await typew.edit("`🏃            🚓`")
+    await typew.edit("`🏃           🚓`")
+    await typew.edit("`🏃LUMAYAN CAPEK😪   🚓`")
+    await typew.edit("`🏃  LANJUT LARI         🚓`")
+    await typew.edit("`🏃            🚓`")
+    await typew.edit("`🏃             🚓`")
+    await typew.edit("`🏃              🚓`")
+    await typew.edit("`🏃               🚓`")
+    await typew.edit("`🏃     SALTO DULU          🚓`")
+    await typew.edit("`🏃                 🚓`")
+    await typew.edit("`🏃                  🚓`")
+    await typew.edit("`🏃                   🚓`")
+    await typew.edit("`🏃                    🚓`")
+    await typew.edit("`🏃                     🚓`")
+    await typew.edit("`🏃  Huh-Huh           🚓`")
+    await typew.edit("`🏃                   🚓`")
+    await typew.edit("`🏃                  🚓`")
+    await typew.edit("`🏃                 🚓`")
+    await typew.edit("`🏃                🚓`")
+    await typew.edit("`🏃               🚓`")
+    await typew.edit("`🏃              🚓`")
+    await typew.edit("`🏃             🚓`")
+    await typew.edit("`🏃            🚓`")
+    await typew.edit("`🏃           🚓`")
+    await typew.edit("`🏃          🚓`")
+    await typew.edit("`🏃         🚓`")
+    await typew.edit("`CAPE BANGET !!!`")
+    sleep(1)
+    await typew.edit("`🏃       🚓`")
+    await typew.edit("`🏃      🚓`")
+    await typew.edit("`🏃     🚓`")
+    await typew.edit("`🏃    🚓`")
+    await typew.edit("`Dahlah Pasrah Aja`")
+    sleep(1)
+    await typew.edit("`🧎🚓🚓 KETANGKAP KANG CULIK NYA`")
+    sleep(2)
+    await typew.edit("`🤦MAAFKAN KAMI PAK`")
+# Create by myself @localheart
+
+
 @register(outgoing=True, pattern="^.jawa(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -176,7 +271,7 @@ CMD_HELP.update({
     "mukmemes":
     "`.tiger`\
     \nUsage: ntahlah gabut doang.\
-    \n\n`.halol`\
+    \n\n`.halo`\
     \nUsage: buat bercanda\
     \n\n`.hoh`\
     \nUsage: buat bercanda\
@@ -186,9 +281,13 @@ CMD_HELP.update({
     \nUsage: buat bercanda\
     \n\n`.gelay`\
     \nUsage: buat bercanda\
-    \n\n`.polisi`\
+    \n\n`.polisiI`\
     \nUsage: buat bercanda\
     \n\n`.tele`\
+    \nUsage: buat bercanda\
+    \n\n`.bacot`\
+    \nUsage: buat bercanda\
+    \n\n`.razia`\
     \nUsage: buat bercanda."
     }
 )
