@@ -161,7 +161,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("`👮🏾‍♀️ 👮🏿‍♂️👮🏼`")
     sleep(1)
-    await typew.edit("`ADA POLISI`")
+    await typew.edit("`LARIII ADA POLISI`")
     sleep(1)
     await typew.edit("` 🚓 `")
     sleep(1)
