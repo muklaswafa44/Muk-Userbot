@@ -314,25 +314,26 @@ async def typewriter(typew):
 # @Rzky3016
 
 
-@register(outgoing=True, pattern='^/wkwk(?: |$)(.*)')
+@register(outgoing=True, pattern='^wkwk(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("` 😂 `")
-    sleep(1)
+    await typew.edit("`😂 `")
     await typew.edit("`🤣`")
-    sleep(1)
-    await typew.edit("` 😁 `")
-    sleep(1)
-    await typew.edit("` 😅`")
-    sleep(1)
-    await typew.edit("`😄`")
-    sleep(2)
-    await typew.edit("`😀`")
-    sleep(1)
-    await typew.edit("`😆`")
-    sleep(1)
-    await typew.edit("`😓`")
+    await typew.edit("`😂 `") 
+    await typew.edit("`🤣 `")
+    await typew.edit("`😂`")
+    await typew.edit("`🤣`")
+    await typew.edit("`😂`")
+    await typew.edit(" 🤣`")
+    await typew.edit("`😂`")
+    await typew.edit(" 🤣`")
+    await typew.edit("`😂`")
+    await typew.edit(" 🤣`")
+    await typew.edit("`😂`")
+    await typew.edit(" 🤣`")
+    await typew.edit("`😂`")
+    await typew.edit("`WKWK`")
 # Create by myself @localheart
 
 
