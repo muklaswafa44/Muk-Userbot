@@ -78,8 +78,10 @@ CMD_HELP.update(
         \n\n  •  **Syntax :** `.semangat`\
         \n  •  **Function : **Memberikan Semangat.\
         \n\n  •  **Syntax :** `.ast`\
-        \n  •  **Function : **Memunculkan tulisan 𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇.......\
+        \n  •  **Function : **Memunculkan tulisan 𝐁𝐇𝐀𝐀𝐀𝐊𝐒𝐒𝐒𝐒𝐒𝐒𝐒𝐒𝐒\
+        \n\n  •  **Syntax :** `.ast`\
         \n\n  •  **Syntax :** `.M`\
+        \n  •  **Function : **Memunculkan tulisan 𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇.......\
         \n  •  **Function : **Memunculkan tulisan HAI PERKENALKAN NAMA SAYA GAK TAU LUPA\
         \n\n  •  **Syntax :** `.ywc`\
         \n  •  **Function : **nMenampilkan Sama sama\
