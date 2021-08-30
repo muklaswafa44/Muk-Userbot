@@ -53,7 +53,7 @@ async def typewriter(typew):
     await typew.edit("𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇......")
 
 
-@register(outgoing=True, pattern='^M(?: |$)(.*)')
+@register(outgoing=True, pattern='^.M(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**HAI PERKENALKAN NAMA SAYA GAK TAU LUPA!!**")
