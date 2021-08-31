@@ -215,6 +215,27 @@ async def typewriter(typew):
                      "๑۩๑๑۩๑๑ ۩๑๑۩๑▓๑۩๑๑۩๑")
 
 
+@register(outgoing=True, pattern='^.hbd(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("╔╗─╔╗\n"
+                     "║║─║║\n"
+                     "║╚═╝╠══╦══╦══╦╗─╔╗\n"
+                     "║╔═╗║╔╗║╔╗║╔╗║║─║║\n"
+                     "║║─║║╔╗║╚╝║╚╝║╚═╝║\n"
+                     "╚╝─╚╩╝╚╣╔═╣╔═╩═╗╔╝\n"
+                     "───────║║─║║─╔═╝║\n"
+                     "───────╚╝─╚╝─╚══╝\n"
+                     "╔══╗───╔╗╔╗───╔╗───"───╔╗\n"
+                     "║╔╗║──╔╝╚╣║───║║───"───║║\n"
+                     "║╚╝╚╦╦╩╗╔╣╚═╦═╝╠══╦"╗─╔╣║\n"
+                     "║╔═╗╠╣╔╣║║╔╗║╔╗║╔╗║"║─║╠╝\n"
+                     "║╚═╝║║║║╚╣║║║╚╝║╔╗║"╚═╝╠╗\n"
+                     "╚═══╩╩╝╚═╩╝╚╩══╩╝╚╩"═╗╔╩╝\n"
+                     "──────────────────╔"═╝║\n"
+                     "──────────────────╚"══╝\n")
+
+
 @register(outgoing=True, pattern='^.wibuu(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -372,6 +393,8 @@ CMD_HELP.update({
     \n\n•CMD:`.thanks`\
     \nPenjelasan: liat sendiri\
     \n\n•CMD:`.malam`\
+    \nPenjelasan: liat sendiri\
+    \n\n•CMD:`.hbd`\
     \nPenjelasan: liat sendiri\
     \n\n•CMD:`.rumah`\
     \nPenjelasan: liat sendiri\
