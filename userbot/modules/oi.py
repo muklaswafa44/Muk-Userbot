@@ -4,20 +4,6 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern='^.muk(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(3)
-    await typew.edit("`Hai Perkenalkan Namaku Muk`")
-    sleep(3)
-    await typew.edit("`20 Tahun`")
-    sleep(1)
-    await typew.edit("`Tinggal Di Tulungagung Jawa timur, Salam Kenal:)`")
-
-
-# Create by myself @localheart
-
-
 @register(outgoing=True, pattern='^.is(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -63,15 +49,6 @@ async def typewriter(typew):
 
 # Create by myself @localheart
 
-
-@register(outgoing=True, pattern='^.repobot(?: |$)(.*)')  
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit("👻")
-    sleep(2)
-    await typew.edit("**🔥Ubot - Fork🔥**\n\n [Muk-Userbot](https://github.com/human-ordinary/Muk-Userbot)\n ")
- 
 
 @register(outgoing=True, pattern='^.wah(?: |$)(.*)')
 async def typewriter(typew):
