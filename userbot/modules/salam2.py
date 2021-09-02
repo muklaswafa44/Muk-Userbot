@@ -138,8 +138,8 @@ CMD_HELP.update({
 \n\n.g\
 \nUsage:\
 \n\n.pu\
-\nUsage:
-"
+\nUsage:\
+    "
     }
 )
 
@@ -161,7 +161,7 @@ CMD_HELP.update({
 \n\n.hey\
 \nUsage:\
 \n\n.loh\
-\nUsage:
+\nUsage:\
    "
     }
 )
