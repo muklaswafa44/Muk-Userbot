@@ -17,6 +17,18 @@ async def typewriter(typew):
     await typew.edit("Gadulu,janmaksa!!")
 
 
+@register(outgoing=True, pattern='^.g(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("Mangga..")
+
+
+@register(outgoing=True, pattern='^.pu(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("Punten..")
+
+
 @register(outgoing=True, pattern='^.gjl(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -123,6 +135,10 @@ CMD_HELP.update({
 \nUsage:\
 \n\n.sad1\
 \nUsage:\
+\n\n.g\
+\nUsage:\
+\n\n.pu\
+\nUsage:
 "
     }
 )
@@ -145,7 +161,7 @@ CMD_HELP.update({
 \n\n.hey\
 \nUsage:\
 \n\n.loh\
-\nUsage:\
+\nUsage:
    "
     }
 )
