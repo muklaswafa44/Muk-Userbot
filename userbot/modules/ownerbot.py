@@ -41,6 +41,6 @@ CMD_HELP.update({
     \nPenjelasan: perkenalan ownwer.\
     \n\n•CMD:`.repobot`\
     \nPenjelasan: link github owner.\
-    \n\n•CMD:`.owner`\
-    \nPenjelasan: telegram ownwer\
-    \n\n•CMD:`.fusage`\
+    \n\n•CMD:`.ownerbot`\
+    \nPenjelasan: telegram ownwer."
+})
