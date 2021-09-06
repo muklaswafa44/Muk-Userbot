@@ -75,6 +75,19 @@ async def typewriter(typew):
                      "\n**Hallo**")
 
 
+@register(outgoing=True, pattern="^.nimb(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`\n┻┳|―-∩`"
+                     "`\n┳┻|     ヽ`"
+                     "`\n┻┳|    ● |`"
+                     "`\n┳┻|▼) _ノ`"
+                     "`\n┻┳|￣  )`"
+                     "`\n┳ﾐ(￣ ／`"
+                     "`\n┻┳T￣|`"
+                     "\n**Permisi Aku mau nimbrung Kk..**")
+
+
 @register(outgoing=True, pattern="^.hoh(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -272,6 +285,8 @@ CMD_HELP.update({
     "`.tiger`\
     \nUsage: ntahlah gabut doang.\
     \n\n`.halo`\
+    \nUsage: buat bercanda\
+    \n\n`.nimb`\
     \nUsage: buat bercanda\
     \n\n`.hoh`\
     \nUsage: buat bercanda\
