@@ -739,6 +739,20 @@ async def typewriter(typew):
     )
 
 
+@register(outgoing=True, pattern=r"^\.cing(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit(
+        "╭╭━━━╮╮┈┈┈┈┈┈┈┈┈┈\n"
+        "┈┃╭━━╯┈┈┈┈▕╲▂▂╱▏┈\n"
+        "┈┃┃╱▔▔▔▔▔▔▔▏╱▋▋╮┈\n"
+        "┈┃╰▏┃╱╭╮┃╱╱▏╱╱▆┃┈\n"
+        "┈╰━▏┗━╰╯┗━╱╱╱╰┻┫┈\n"
+        "┈┈┈▏┏┳━━━━▏┏┳━━╯┈\n"
+        "┈┈┈▏┃┃┈┈┈┈▏┃┃┈┈┈┈\n"
+    )
+
+
 @register(outgoing=True, pattern=r"^\.bernyanyi(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -1271,7 +1285,7 @@ CMD_HELP.update(
     \nUsage: liat aja.\
     \n\n`.awk`\
     \nUsage: ketawa lari.\
-    \n\n`.ular` ; `.babi` ; `.ajg` ; `.nyet`\
+    \n\n`.ular` ; `.babi` ; `.ajg` ; `.nyet` ; `.cing`\
     \nUsage: liat sendiri.\
     \n\n`.nah` ; `.huh` ; `.owner`\
     \nUsage: cobain.\
