@@ -48,6 +48,7 @@ justwatch
 lottie
 lxml
 lyricsgenius
+markdown
 moviepy
 natsort
 nekos.py
@@ -57,6 +58,7 @@ patool
 pendulum
 Pillow
 pip>=19.2.3
+prettytable
 psutil
 psycopg2
 psycopg2-binary
