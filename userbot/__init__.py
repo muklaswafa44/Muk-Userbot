@@ -198,7 +198,7 @@ ALIVE_LOGO = os.environ.get(
     "ALIVE_LOGO") or "https://telegra.ph/file/9dc4e335feaaf6a214818.jpg"
 
 # Default .alive Instagram
-IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/muklaskhoiru_wf"
+IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/muklaskhoiruu_"
 
 # Default .alive Group
 GROUP_LINK = os.environ.get(
