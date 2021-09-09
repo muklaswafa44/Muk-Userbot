@@ -1,13 +1,10 @@
 # Muk-Userbot Telegram ( forking dari Man-Userbot dan berbagai repo )
 
-Muk-Userbot adalah userbot Telegram forking modular yang berjalan di Python3 dengan database sqlalchemy.
 
 MOHON IZIN DAN MAAF KEPADA PIHAK YANG BERSANGKUTAN ATAS TERBUATNYA REPO FORK INI HANYA SEMATA-MATA BUAT KESENANGAN DAN TANPA ADA UNSUR LAIN-LAIN
 
 Copyright 2021 all repo userbot credits
 
-Berbasis [Paperplane](https://github.com/RaphielGang/Telegram-UserBot) dan [ProjectBish](https://github.com/adekmaulana/ProjectBish) userbot.
-Saya membuat repository ini untuk memilih dan menambahkan beberapa modul yang saya butuhkan dengan banyak perubahan, fitur dan modul.
 
 ## Disclaimer
 
