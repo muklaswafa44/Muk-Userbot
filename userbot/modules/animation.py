@@ -753,6 +753,24 @@ async def typewriter(typew):
     )
 
 
+@register(outgoing=True, pattern=r"^\.wel(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit(
+       "───▄▀▀▀▄▄▄▄▄▄▄▀▀▀▄───/n"
+       "───█▒▒░░░░░░░░░▒▒█───/n"
+       "────█░░█░░░░░█░░█────/n"
+       "─▄▄──█░░░▀█▀░░░█──▄▄─/n"
+       "█░░█─▀▄░░░░░░░▄▀─█░░█/n"
+       "█▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀▀█/n"
+       "█░░╦─╦╔╗╦─╔╗╔╗╔╦╗╔╗░░█/n"
+       "█░░║║║╠─║─║─║║║║║╠─░░█/n"
+       "█░░╚╩╝╚╝╚╝╚╝╚╝╩─╩╚╝░░█/n"
+       "█▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄█/n"
+   )
+
+
+
 @register(outgoing=True, pattern=r"^\.bernyanyi(?: |$)(.*)")
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -1295,6 +1313,8 @@ CMD_HELP.update(
     \nUsage: animasi.\
     \n\n`.hua`\
     \nUsage: nangis.\
+    \n\n`.wel`\
+    \nUsage: animasi gambar welcome.\
     \n\n`.ceritacinta` ; `.canda`\
     \nUsage: liat sendiri\
     \n\n`.santet`\
