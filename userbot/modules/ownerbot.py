@@ -24,7 +24,7 @@ async def typewriter(typew):
     await typew.edit("**🔥Ubot - Fork🔥**\n\n [Muk-Userbot](https://github.com/human-ordinary/Muk-Userbot)\n ")
 
 
-@register(outgoing=True, pattern='^.ownerbot(?: |$)(.*)')  
+@register(outgoing=True, pattern='^.ubot(?: |$)(.*)')  
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
