@@ -28,9 +28,9 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("👻")
+    await typew.edit("⚡️")
     sleep(2)
-    await typew.edit("**🔥Owner Bot🔥**\n\n [Muklas](https://t.me/iyainyabre)\n ")
+    await typew.edit("𝐢 𝐚𝐦 𝐌𝐮𝐤-𝐔𝐬𝐞𝐫𝐛𝐨𝐭𝐬")
 
 
 # muk
