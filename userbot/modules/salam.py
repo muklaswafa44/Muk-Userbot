@@ -59,6 +59,18 @@ async def typewriter(typew):
     await typew.edit("**HAI PERKENALKAN NAMA SAYA GAK TAU LUPA!!**")
 
 
+@register(outgoing=True, pattern="^.al(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Alhamdulillah..**")
+
+
+@register(outgoing=True, pattern="^.ma(?: |$)(.*)")
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("𝐓𝐞𝐫𝐢𝐦𝐚 𝐊𝐚𝐬𝐢𝐡. .")
+
+
 
 CMD_HELP.update(
     {
@@ -91,6 +103,10 @@ CMD_HELP.update(
         \n  •  **Function : **LU SEMUA NGENTOT 🔥\
         \n\n  •  **Syntax :** `.j`\
         \n  •  **Function : **NIMBRUNG GOBLOKK!!!🔥\
+        \n\n  •  **Syntax :** `.al`\
+        \n  •  **Function : **Alhamdulillah\
+         n\n  •  **Syntax :** `.ma`\
+        \n  •  **Function : **𝐓𝐞𝐫𝐢𝐦𝐚 𝐊𝐚𝐬𝐢𝐡. .\
     "
     }
 )
