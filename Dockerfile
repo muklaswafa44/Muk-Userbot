@@ -1,12 +1,11 @@
-# We're using Ubuntu 20.10
-FROM biansepang/weebproject:buster
+FROM mrismanaziz/man-userbot:buster
 
-RUN git clone -b Man-Userbot https://github.com/human-ordinary/Muk-Userbot /root/userbot
-RUN mkdir /root/userbot/.bin
-RUN pip3 install --upgrade pip setuptools
-WORKDIR /root/userbot
+RUN git clone -b Man-Userbot https://github.com/human-ordinary/Muk-Userbot/edit/Man-Userbot /home/manuserbot/ \
+    && chmod 777 /home/manuserbot \
+    && mkdir /home/manuserbot/bin/
 
-#Install python requirements
-RUN pip3 install -r https://raw.githubusercontent.com/human-ordinary/Muk-Userbot/Man-Userbot/requirements.txt
+COPY ./sample_config.env ./config.env* /home/manuserbot/
 
-CMD ["python3.9","-m","userbot"]
+WORKDIR /home/manuserbot/
+
+CMD ["python3", "-m", "userbot"]
