@@ -211,34 +211,34 @@ async def _(event):
                     await bot.send_message(BOTLOG_CHATID, file=pic)
                     await bot.send_message(
                         BOTLOG_CHATID,
-                        f"\n**╭✠╼━━━━━━❖━━━━━━━✠╮\n✘ {ALIVE_NAME} Sedang AFK ✘**\n**✦҈͜͡➳ Karena :** `{reason}`\n╰✠╼━━━━━━❖━━━━━━━✠╯",
+                        f"\n**✘ {ALIVE_NAME} Sedang AFK ✘**\n**✦҈͜͡➳ Karena :** `{reason}`",
                     )
                 else:
                     await bot.send_message(
                         BOTLOG_CHATID,
-                        f"\n**╭✠╼━━━━━━❖━━━━━━━✠╮\n✘ {ALIVE_NAME} Sedang AFK ✘**\n**✦҈͜͡➳ Karena :** `{reason}`\n╰✠╼━━━━━━❖━━━━━━━✠╯",
+                        f"\n**✘ {ALIVE_NAME} Sedang AFK ✘**\n**✦҈͜͡➳ Karena :** `{reason}`",
                         file=pic,
                     )
             elif reason:
                 await bot.send_message(
                     BOTLOG_CHATID,
-                    f"\n**╭✠╼━━━━━━❖━━━━━━━✠╮\n✘ {ALIVE_NAME} Sedang AFK ✘**\n**✦҈͜͡➳ Karena :** `{reason}`\n╰✠╼━━━━━━❖━━━━━━━✠╯",
+                    f"\n**✘ {ALIVE_NAME} Sedang AFK ✘**\n**✦҈͜͡➳ Karena :** `{reason}`",
                 )
             elif pic:
                 if pic.endswith((".tgs", ".webp")):
                     await bot.send_message(BOTLOG_CHATID, file=pic)
                     await bot.send_message(
-                        BOTLOG_CHATID, f"\n**╭✠╼━━━━━━❖━━━━━━━✠╮\n ✘ {ALIVE_NAME} Sedang AFK ✘**\n╰✠╼━━━━━━❖━━━━━━━✠╯"
+                        BOTLOG_CHATID, f"\n**✘ {ALIVE_NAME} Sedang AFK ✘**"
                     )
                 else:
                     await bot.send_message(
                         BOTLOG_CHATID,
-                        f"\n**╭✠╼━━━━━━❖━━━━━━━✠╮\n ✘ {ALIVE_NAME} Sedang AFK ✘**\n╰✠╼━━━━━━❖━━━━━━━✠╯",
+                        f"\n**✘ {ALIVE_NAME} Sedang AFK ✘**",
                         file=pic,
                     )
             else:
                 await bot.send_message(
-                    BOTLOG_CHATID, f"\n\**╭✠╼━━━━━━❖━━━━━━━✠╮\n ✘ {ALIVE_NAME} Sedang AFK ✘**\n╰✠╼━━━━━━❖━━━━━━━✠╯"
+                    BOTLOG_CHATID, f"\n\**✘ {ALIVE_NAME} Sedang AFK ✘**"
                 )
         except Exception as e:
             BOTLOG_CHATIDger.warn(str(e))
