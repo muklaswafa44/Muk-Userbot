@@ -228,17 +228,17 @@ async def _(event):
                 if pic.endswith((".tgs", ".webp")):
                     await bot.send_message(BOTLOG_CHATID, file=pic)
                     await bot.send_message(
-                        BOTLOG_CHATID, f"\n**╭✠╼━━━━━━❖━━━━━━━✠╮\n✘ {ALIVE_NAME} Sedang AFK ✘**\n╰✠╼━━━━━━❖━━━━━━━✠╯"
+                        BOTLOG_CHATID, f"\n**╭✠╼━━━━━━❖━━━━━━━✠╮\n ✘ {ALIVE_NAME} Sedang AFK ✘**\n╰✠╼━━━━━━❖━━━━━━━✠╯"
                     )
                 else:
                     await bot.send_message(
                         BOTLOG_CHATID,
-                        f"\n**╭✠╼━━━━━━❖━━━━━━━✠╮\n✘ {ALIVE_NAME} Sedang AFK ✘**\n╰✠╼━━━━━━❖━━━━━━━✠╯",
+                        f"\n**╭✠╼━━━━━━❖━━━━━━━✠╮\n ✘ {ALIVE_NAME} Sedang AFK ✘**\n╰✠╼━━━━━━❖━━━━━━━✠╯",
                         file=pic,
                     )
             else:
                 await bot.send_message(
-                    BOTLOG_CHATID, f"\n\**╭✠╼━━━━━━❖━━━━━━━✠╮\n✘ {ALIVE_NAME} Sedang AFK ✘**\n╰✠╼━━━━━━❖━━━━━━━✠╯"
+                    BOTLOG_CHATID, f"\n\**╭✠╼━━━━━━❖━━━━━━━✠╮\n ✘ {ALIVE_NAME} Sedang AFK ✘**\n╰✠╼━━━━━━❖━━━━━━━✠╯"
                 )
         except Exception as e:
             BOTLOG_CHATIDger.warn(str(e))
