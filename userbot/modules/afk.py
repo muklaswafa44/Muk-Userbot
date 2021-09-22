@@ -238,7 +238,7 @@ async def _(event):
                     )
             else:
                 await bot.send_message(
-                    BOTLOG_CHATID, f"\n\**✘ {ALIVE_NAME} Sedang AFK ✘**"
+                    BOTLOG_CHATID, f"\n**✘ {ALIVE_NAME} Sedang AFK ✘**"
                 )
         except Exception as e:
             BOTLOG_CHATIDger.warn(str(e))
